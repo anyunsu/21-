@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>축구팀들</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>아래 축구팀 검색해보기</h1>
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="아래팀을 검색하세요.">
+        <button onclick="searchTeam()">검색</button>
+    </div>
+    <div id="team-list-container">
+        <h2>검색 가능한 팀 목록</h2>
+        <ul id="team-list">
+            <li>레알마드리드</li>
+            <li>바르셀로나</li>
+            <li>맨시티</li>
+            <li>맨유</li>
+            <li>인테르</li>
+            <li>바이에른뮌헨</li>
+            <li>보루시아 도르트문트</li>
+            <li>울버햄튼</li>
+            <li>토트넘</li>
+            <li>슈투트가르트</li>
+            <li>브렌트포드</li>
+            <li>미트윌란</li>
+            <li>츠르베나 즈베즈다</li>
+        </ul>
+    </div>    
+    <div id="search-result">
+        <h2 id="team-name-result"></h2>
+        <p id="team-description-result"></p>
+        <ul id="link-list"></ul>
+    </div>
+     <script src="script.js"></script>
+</body>
+</html>

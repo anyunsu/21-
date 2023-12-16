@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://t1.daumcdn.net/thumb/R1000x0/?fname=https://i.imgur.com/3SdBeo9.jpg');
+    background-size: cover;
+    background-position: sticky;
+    top: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff; 
+}
+
+#search-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#search-input {
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+#team-list-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#team-list {
+    list-style: none;
+    padding: 0;
+}
+
+#team-list li {
+    margin: 5px 0;
+    color: #ff0000; 
+}
+
+#search-result {
+    text-align: center;
+    margin-top: 70px;
+}
+
+#team-name-result {
+    font-size: 20px;
+    color: #cc00ff; 
+}
+
+#team-description-result { 
+    font-size:20px; 
+    color: #ff0000; 
+}
+
+#link-list {
+    list-style: none;
+    padding: 0;
+}
+
+#link-list li {
+    margin: 5px 0;
+}
+
+#link-list a {
+    text-decoration: none;
+    color: #a200ff;
+}
+
+#link-list a:hover {
+    text-decoration: underline;
+}
+#team-list-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#team-list {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+#team-list li {
+    margin: 5px 10px;
+    color: #ff0000; 
+}
